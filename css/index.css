@@ -8,9 +8,34 @@ main {
 }
 
 .programs {
-    background-image: url(../architecture_bg.jpg);
+    background-image: url(../img/architecture_bg.jpg);
 }
 
+.programs .inner {
+    background-color: rgba(255,255,255,0.75);
+}
+
+.programs .icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.programs .start .icon {
+    background-image: url(../img/sprites.svg);
+}
+.programs .optimum.icon {
+    background-image: url(../img/sprites.svg);
+}
+.programs .maximum .icon {
+    background-image: url(../img/sprites.svg);
+}
+
+
 .safety {
-    background-image: url(../pattern_diagonal.png);
+    background-image: url(../img/pattern_diagonal.png);
+}
+
+.safety .inner {
+    background-color: #FFFFFF;
 }
