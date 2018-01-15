@@ -1,5 +1,5 @@
 body {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -9,28 +9,52 @@ main {
 
 .programs {
     background-image: url(../img/architecture_bg.jpg);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programs .start {
+    box-sizing: border-box;
+    margin: 20px 25px 59px 80px;
+}
+
+.programs .optimum {
+    box-sizing: border-box;
+    margin: 20px 25px 59px;
+}
+
+.programs .maximum {
+    box-sizing: border-box;
+    margin: 20px 80px 59px 25px;
+}
+
+.programs .redline {
+    background-image: url(../img/pattern_diagonal.png);
+    background-color: rgba(196,0,10,0.75);
+    height: 80px;
+    width: 350px;
 }
 
 .programs .inner {
     background-color: rgba(255,255,255,0.75);
+    padding: 70px 100px 30px;
 }
 
 .programs .icon {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 .programs .start .icon {
     background-image: url(../img/sprites.svg);
 }
-.programs .optimum.icon {
+.programs .optimum .icon {
     background-image: url(../img/sprites.svg);
 }
 .programs .maximum .icon {
     background-image: url(../img/sprites.svg);
 }
-
 
 .safety {
     background-image: url(../img/pattern_diagonal.png);
@@ -38,4 +62,5 @@ main {
 
 .safety .inner {
     background-color: #FFFFFF;
+    margin: 15px 270px;
 }
