@@ -43,6 +43,8 @@ h4 {
     position: relative;
     box-sizing: border-box;
     width: 33.333%;
+    display: block;
+    float: left;
 }
 
 .programs .start {
@@ -98,12 +100,15 @@ h4 {
 
 .safety {
     background-image: url(../img/pattern_diagonal.png);
+    text-align: center;
 }
 
 .safety .inner {
     background-color: #FFFFFF;
-    margin: 15px 270px;
+    margin-bottom: 15px;
     border: 1px solid #dee2e5;
     text-align: justify;
     padding: 30px;
+    display: inline-block;
+    width: 60%;
 }
