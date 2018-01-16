@@ -71,16 +71,20 @@ h3 {
     height: 120px;
     top: 50px;
     left: 50%;
+    margin-left: -60px;
 }
 
 .programs .start .icon {
     background-image: url(../img/sprites.svg);
+    background-position: 10px 10px;
 }
 .programs .optimum .icon {
     background-image: url(../img/sprites.svg);
+    background-position: -145px 10px;
 }
 .programs .maximum .icon {
     background-image: url(../img/sprites.svg);
+    background-position: -300px 10px;
 }
 
 .safety {
