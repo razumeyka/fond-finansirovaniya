@@ -11,16 +11,25 @@ main {
     background-image: url(../img/architecture_bg.jpg);
 }
 
+h2 {
+    text-align: center;
+    color: #00376b;
+    size: 24px;
+}
+
+h3 {
+    color: #00376b;
+}
+
 .programs {
     display: flex;
     flex-wrap: wrap;
 }
 
 .programs .program {
+    position: relative;
     box-sizing: border-box;
     width: 33.333%;
-    display: block;
-    float: : left;
 }
 
 .programs .start {
@@ -50,13 +59,18 @@ main {
     padding: 70px 100px 30px;
 }
 
+.programs .text p {
+    text-align: center;
+}
+
 .programs .icon {
     background-color: #FFFFFF;
     border-radius: 60px;
     position: absolute;
     width: 120px;
     height: 120px;
-    margin-top: -60px;
+    top: 50px;
+    left: 50%;
 }
 
 .programs .start .icon {
