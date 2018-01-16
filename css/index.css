@@ -37,29 +37,17 @@ h4 {
 .programs {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -25px;
+    margin-right: -25px;
 }
 
 .programs .program {
     position: relative;
     box-sizing: border-box;
+    padding: 20px 25px 60px;
     width: 33.333%;
     display: block;
     float: left;
-}
-
-.programs .start {
-    box-sizing: border-box;
-    padding: 20px 25px 59px 80px;
-}
-
-.programs .optimum {
-    box-sizing: border-box;
-    padding: 20px 25px 59px;
-}
-
-.programs .maximum {
-    box-sizing: border-box;
-    padding: 20px 80px 59px 25px;
 }
 
 .programs .redline {
@@ -87,15 +75,15 @@ h4 {
 
 .programs .start .icon {
     background-image: url(../img/sprites.svg);
-    background-position: 10px 10px;
+    background-position: -990px -490px;
 }
 .programs .optimum .icon {
     background-image: url(../img/sprites.svg);
-    background-position: -145px 10px;
+    background-position: -145px -490px;
 }
 .programs .maximum .icon {
     background-image: url(../img/sprites.svg);
-    background-position: -300px 10px;
+    background-position: -300px -490px;
 }
 
 .safety {
@@ -107,8 +95,23 @@ h4 {
     background-color: #FFFFFF;
     margin-bottom: 15px;
     border: 1px solid #dee2e5;
-    text-align: justify;
-    padding: 30px;
+    padding: 20px;
     display: inline-block;
-    width: 60%;
+    max-width: 850px;
+}
+
+.safety .inner .number {
+    background-color: #00376b;
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+}
+
+.safety-text {
+    text-align: justify;
+    margin-top: -23px;
 }
