@@ -100,7 +100,24 @@ h4 {
     max-width: 850px;
 }
 
-.safety .inner .number {
+.safety-text1, .safety-text2, .safety-text3 {
+    text-align: justify;
+    margin-top: -23px;
+}
+
+.safety-text1::before {
+    content: "1";
+}
+
+.safety-text2::before {
+    content: "2";
+}
+
+.safety-text3::before {
+    content: "3";
+}
+
+.safety-text1::before, .safety-text2::before ,.safety-text3::before {
     background-color: #00376b;
     width: 60px;
     height: 60px;
@@ -109,9 +126,4 @@ h4 {
     text-align: center;
     margin-right: 20px;
     float: left;
-}
-
-.safety-text {
-    text-align: justify;
-    margin-top: -23px;
 }
