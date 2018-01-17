@@ -41,7 +41,7 @@
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
 }
 
 main {
@@ -78,8 +78,7 @@ h3 {
 .programs {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -25px;
-    margin-right: -25px;
+	margin:0 -25px;
 }
 
 .programs .program {
@@ -87,21 +86,16 @@ h3 {
     box-sizing: border-box;
     padding: 20px 25px 60px;
     width: 33.333%;
-    display: block;
-    float: left;
 }
 
 .programs .redline {
-    background-image: url(../img/pattern_diagonal.png);
-    background-color: rgba(196,0,10,0.75);
-    width: 100%;
+    background: url(../img/pattern_diagonal.png) rgba(196,0,10,0.75);
     height: 80px;
 }
 
 .programs .inner {
     background-color: rgba(255,255,255,0.75);
     padding: 70px 30px 30px;
-    display: block;
     font-family: Roboto-Bold;
 }
 
@@ -118,26 +112,24 @@ h3 {
 }
 
 .programs .icon {
-    background-color: #FFFFFF;
-    border-radius: 60px;
+    background: url(../img/sprites.svg) #FFFFFF;
+    border-radius: 50%;
     position: absolute;
     width: 120px;
     height: 120px;
     top: 40px;
-    left: 50%;
-    margin-left: -60px;
+	left:0;
+	right:0;
+	margin:auto;
 }
 
 .programs .start .icon {
-    background-image: url(../img/sprites.svg);
     background-position: -990px -490px;
 }
 .programs .optimum .icon {
-    background-image: url(../img/sprites.svg);
     background-position: -145px -490px;
 }
 .programs .maximum .icon {
-    background-image: url(../img/sprites.svg);
     background-position: -300px -490px;
 }
 
