@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+}
+
 main {
     display: block;
 }
@@ -27,18 +31,6 @@ h3 {
     margin-top: 0;
 }
 
-.percent {
-    text-align: center;
-    color: #c4000a;
-    font-size: 50px;
-    padding: 5px;
-}
-
-.programs .text {
-    text-align: center;
-    font-size: 20px;
-}
-
 .programs {
     display: flex;
     flex-wrap: wrap;
@@ -64,8 +56,20 @@ h3 {
 
 .programs .inner {
     background-color: rgba(255,255,255,0.75);
-    padding: 70px 100px 30px;
+    padding: 70px 30px 30px;
     display: block;
+}
+
+.programs .percent {
+    text-align: center;
+    color: #c4000a;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.programs .text {
+    text-align: center;
+    font-size: 20px;
 }
 
 .programs .icon {
@@ -136,4 +140,10 @@ h3 {
     width: 140px;
     float: right;
     margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+    .programs .program {
+          width: 33.333%;
+    }
 }
