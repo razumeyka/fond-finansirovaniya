@@ -1,10 +1,11 @@
-body {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
 main {
     display: block;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 .saving-programs {
@@ -17,25 +18,25 @@ h2 {
     text-align: center;
     color: #00376b;
     font-size: 24px;
-    -webkit-margin-before: 0;
+    margin-top: 0;
+    padding-top: 10px;
 }
 
 h3 {
     color: #00376b;
-    -webkit-margin-before: 0;
+    margin-top: 0;
 }
 
-h4 {
+.percent {
     text-align: center;
     color: #c4000a;
     font-size: 50px;
-    line-height: 5px;
+    padding: 5px;
 }
 
-.programs .text p {
+.programs .text {
     text-align: center;
     font-size: 20px;
-    line-height: 5px;
 }
 
 .programs {
@@ -61,9 +62,10 @@ h4 {
     height: 80px;
 }
 
-.programs .text {
+.programs .inner {
     background-color: rgba(255,255,255,0.75);
     padding: 70px 100px 30px;
+    display: block;
 }
 
 .programs .icon {
@@ -93,21 +95,17 @@ h4 {
 .safety {
     background-image: url(../img/pattern_diagonal.png);
     text-align: center;
-    background-size: cover;
     background-position: center center;
 }
 
-.safety .inner {
+.safety-text1, .safety-text2, .safety-text3 {
+    text-align: justify;
     background-color: #FFFFFF;
     margin-bottom: 15px;
     border: 1px solid #dee2e5;
     padding: 20px;
     display: inline-block;
     max-width: 850px;
-}
-
-.safety-text1, .safety-text2, .safety-text3 {
-    text-align: justify;
 }
 
 .safety-text1::before {
@@ -131,4 +129,11 @@ h4 {
     text-align: center;
     margin-right: 20px;
     float: left;
+}
+
+.safety img {
+    float: right;
+    width: 140px;
+    float: right;
+    margin-left: 20px;
 }
