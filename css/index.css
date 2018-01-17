@@ -144,6 +144,6 @@ h3 {
 
 @media (max-width: 700px) {
     .programs .program {
-          width: 33.333%;
+          width: 100%;
     }
 }
