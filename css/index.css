@@ -142,12 +142,11 @@ h3 {
 .safety-text1, .safety-text2, .safety-text3 {
     text-align: justify;
     background-color: #FFFFFF;
-    margin-bottom: 15px;
     border: 1px solid #dee2e5;
     padding: 20px;
-    display: inline-block;
     max-width: 850px;
     font-family: Roboto-Light;
+	margin:0 auto 15px;
 }
 
 .safety-text1::before {
