@@ -9,16 +9,20 @@ main {
 
 .saving-programs {
     background-image: url(../img/architecture_bg.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 h2 {
     text-align: center;
     color: #00376b;
     font-size: 24px;
+    -webkit-margin-before: 0;
 }
 
 h3 {
     color: #00376b;
+    -webkit-margin-before: 0;
 }
 
 h4 {
@@ -89,6 +93,8 @@ h4 {
 .safety {
     background-image: url(../img/pattern_diagonal.png);
     text-align: center;
+    background-size: cover;
+    background-position: center center;
 }
 
 .safety .inner {
@@ -102,7 +108,6 @@ h4 {
 
 .safety-text1, .safety-text2, .safety-text3 {
     text-align: justify;
-    margin-top: -23px;
 }
 
 .safety-text1::before {
