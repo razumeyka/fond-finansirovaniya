@@ -92,8 +92,8 @@ h3 {
 
 .programs .program {
     position: relative;
-    box-sizing: border-box;
     padding: 0px 20px 55px;
+    box-sizing: border-box;
 }
 
 .programs .redline {
@@ -195,14 +195,79 @@ h3 {
     margin: 0 20px;
 }
 
+.interest_payments {
+    background-image: url(../img/red_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.interest_payments h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 34px;
+    letter-spacing: 0.8px;
+    margin: 5px auto 0;
+    padding: 50px 0 30px;
+    font-family: Roboto-BoldCondensed;
+}
+
+.payments_ways {
+    display: flex;
+    flex-wrap: wrap;
+	margin:0 -85px;
+}
+
+.payments_ways .payment {
+    padding: 0px 85px 50px;
+    box-sizing: border-box;
+    width: 33.333%;
+}
+
+.payment .inner {
+    font-family: Roboto-Bold;
+}
+
+.payment .inner .text1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Roboto-Bold;
+    font-size: 22px;
+}
+
+.payment .inner .text2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: Roboto-Light;
+    font-size: 16px;
+}
+
+.payment .icon {
+    background: url(../img/sprites.svg) #FFFFFF;
+    border: 1px solid #dee2e5;
+    width: 130px;
+    height: 130px;
+}
+
+.payment .card .icon {
+    background-position: -990px -490px;
+}
+.payment .saving .icon {
+    background-position: -145px -490px;
+}
+.payment .cash .icon {
+    background-position: -300px -490px;
+}
+
+
+
 @media (max-width: 700px) {
-    .programs .program {
+    .program_wrapper {
           width: 100%;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .safety-text1::before, .safety-text2::before ,.safety-text3::before {
-          clear: left;
+          clear: right;
     }
 }
