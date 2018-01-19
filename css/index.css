@@ -58,6 +58,7 @@ main {
     background-image: url(../img/architecture_bg.jpg);
     background-position: center center;
     background-size: cover;
+    box-shadow: 0 0 15px #e1e5e9;
 }
 
 h2 {
@@ -87,9 +88,9 @@ h3 {
 .programs .program {
     position: relative;
     box-sizing: border-box;
-    box-shadow: 0 0 5px #e8ebee;
     padding: 0px 20px 55px;
     width: 33.333%;
+    box-shadow: 0 0 5px #e1e5e9;
 }
 
 .programs .redline {
@@ -152,6 +153,7 @@ h3 {
     font-size: 16px;
     line-height: 24px;
 	margin:0 auto 25px;
+	box-shadow: 0 0 5px #e1e5e9;
 }
 
 .description {
