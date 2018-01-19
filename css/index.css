@@ -197,3 +197,9 @@ h3 {
           width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .safety-text1::before, .safety-text2::before ,.safety-text3::before {
+          clear: right;
+    }
+}
