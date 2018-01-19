@@ -85,12 +85,15 @@ h3 {
 	margin:0 -20px;
 }
 
+.program_wrapper {
+    width: 33.333%;
+    box-shadow: 0 0 5px #e1e5e9;
+}
+
 .programs .program {
     position: relative;
     box-sizing: border-box;
     padding: 0px 20px 55px;
-    width: 33.333%;
-    box-shadow: 0 0 5px #e1e5e9;
 }
 
 .programs .redline {
@@ -198,8 +201,8 @@ h3 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .safety-text1::before, .safety-text2::before ,.safety-text3::before {
-          clear: right;
+          clear: left;
     }
 }
