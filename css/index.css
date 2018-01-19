@@ -87,7 +87,7 @@ h3 {
 .programs .program {
     position: relative;
     box-sizing: border-box;
-    padding: 0px 20px 60px;
+    padding: 0px 20px 55px;
     width: 33.333%;
 }
 
@@ -98,7 +98,7 @@ h3 {
 
 .programs .inner {
     background-color: rgba(255,255,255,0.75);
-    padding: 70px 30px 30px;
+    padding: 60px 30px 45px;
     font-family: Roboto-Bold;
 }
 
@@ -149,6 +149,7 @@ h3 {
     max-width: 790px;
     font-family: Roboto-Light;
     font-size: 16px;
+    line-height: 24px;
 	margin:0 auto 25px;
 }
 
@@ -171,13 +172,13 @@ h3 {
 .safety-text1::before, .safety-text2::before ,.safety-text3::before {
     background-color: #00376b;
     width: 50px;
-    height: 50px;
+    height: 40px;
     color: #FFFFFF;
     font-family: Roboto-Bold;
     font-size: 50px;
     text-align: center;
-    padding: 20px;
-    margin-right: 20px;
+    padding: 35px 20px 15px;
+    margin-right: 25px;
     float: left;
 }
 
