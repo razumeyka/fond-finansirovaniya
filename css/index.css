@@ -87,6 +87,7 @@ h3 {
 .programs .program {
     position: relative;
     box-sizing: border-box;
+    box-shadow: 0 0 5px #e8ebee;
     padding: 0px 20px 55px;
     width: 33.333%;
 }
