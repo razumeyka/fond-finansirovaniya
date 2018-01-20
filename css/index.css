@@ -86,13 +86,13 @@ h3 {
 }
 
 .program_wrapper {
+    padding: 0px 20px 55px;
     width: 33.333%;
-    box-shadow: 0 0 5px #e1e5e9;
 }
 
 .programs .program {
     position: relative;
-    padding: 0px 20px 55px;
+    box-shadow: 0 0 5px #e1e5e9;
     box-sizing: border-box;
 }
 
