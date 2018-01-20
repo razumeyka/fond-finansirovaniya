@@ -248,14 +248,14 @@ h3 {
     height: 130px;
 }
 
-.payment .card .icon {
-    background-position: -990px -490px;
+.payments_ways .on_card .icon {
+    background-position: -290px -120px;
 }
-.payment .saving .icon {
-    background-position: -145px -490px;
+.payments_ways .on_saving .icon {
+    background-position: -140px -120px;
 }
-.payment .cash .icon {
-    background-position: -300px -490px;
+.payments_ways .by_cash .icon {
+    background-position: -985px -110px;
 }
 
 .fond_finansirovaniya {
@@ -351,6 +351,17 @@ h3 {
     font-family: Roboto-Light;
     font-size: 14px;
     line-height: 30px;
+}
+
+.requisites li {
+    list-style: none;
+}
+
+.requisites .icon {
+    background: url(../img/sprites.svg) #FFFFFF -52px -282px;
+    width: 30px;
+    height: 30px;
+    float: left;
 }
 
 @media (max-width: 700px) {
