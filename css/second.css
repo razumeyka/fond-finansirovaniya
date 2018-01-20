@@ -12,10 +12,6 @@
     height: 100px;
     display: block;
 }
-.phones{
-	float:right;
-	background:red;
-}
 .menu{
 	background:green;
     overflow: hidden;
@@ -61,11 +57,19 @@ header .phones {
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-align:center;
-  background-image: -moz-linear-gradient( 90deg, rgb(0,66,133) 0%, rgb(36,103,187) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(0,66,133) 0%, rgb(36,103,187) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(0,66,133) 0%, rgb(36,103,187) 100%);
+  background:#ca150c;
+  float:right;
+  padding:10px;
+  width:270px;
+  box-sizing:border-box;
 }
-
+header .phones .tel{
+	text-align:center;
+	
+    padding: 5px;
+    display: block;
+	
+}
 header .phones .order {
   color: rgb(201, 21, 12);
   font-weight: bold;
@@ -73,10 +77,28 @@ header .phones .order {
   background-image: -moz-linear-gradient( 90deg, rgb(210,208,208) 0%, rgb(255,255,255) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(210,208,208) 0%, rgb(255,255,255) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(210,208,208) 0%, rgb(255,255,255) 100%);
+  display:block;
+  width:200px;
+  margin:0 auto;
+  text-decoration:none;
 }
 
+header .menu .topmenu a{
+	padding:3px 0;
+	
+}
+header .menu ul{
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
 .menu  ul a{
   color: rgb(43, 43, 43);
+  text-decoration:none;
+}
+.menu  ul li{
+	display:block;
+	float:left;
 }
 .first_screen .title {
   font-size: 60px;
