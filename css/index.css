@@ -144,6 +144,7 @@ h3 {
     background-image: url(../img/pattern_diagonal.png);
     text-align: center;
     background-position: center center;
+    padding-bottom: 25px;
 }
 
 .safety-text1, .safety-text2, .safety-text3 {
@@ -199,6 +200,7 @@ h3 {
     background-image: url(../img/red_bg.jpg);
     background-position: center center;
     background-size: cover;
+    margin: 5px 0;
 }
 
 .interest_payments h2 {
@@ -264,25 +266,29 @@ h3 {
 }
 
 .fond_finansirovaniya .wrapper {
-    display: flex;   
+    display: flex;
+    margin: 0 -25px 5px;
 }
 
-.fond_finansirovaniya .logo {
-    background-color: red;
-    width: 250px;
-    height: 115px;
+.fond_wrapper {
+    padding: 25px;
 }
 
 .about_fond, .predsedatyel, .requisites {
-    background-color: #FFFFFF;
     border: 1px solid #dee2e5;
 	box-shadow: 0 0 5px #e1e5e9;
-	margin: 25px;
+	background-color: #FFFFFF;
 }
 
 .about_fond {
     padding: 20px 30px 0 50px;
     text-align: justify;
+}
+
+.about_fond .logo {
+    background-color: red;
+    width: 250px;
+    height: 115px;
 }
 
 .about_fond h3 {
@@ -351,6 +357,7 @@ h3 {
     font-family: Roboto-Light;
     font-size: 14px;
     line-height: 30px;
+    padding: 0;
 }
 
 .requisites li {
