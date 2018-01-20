@@ -22,6 +22,175 @@
 
 }
 
+.calculator .wrapper{
+	display:flex;
+}
+.calculator .uslovia{
+	flex: 1;
+	background:rebeccapurple;
+}
+.calculator .result{
+	width:300px;
+	background:red;
+}
+
+.menu{
+font-size: 15px;
+  font-family: "Roboto";
+  
+}
+.menu .activemenu {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.menu .passivemenu {
+  color: rgb(0, 55, 107);
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.menu .login{
+  color: rgb(0, 55, 107);
+  text-decoration: underline;
+  float:right;
+}
+
+header .phones {
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align:center;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,66,133) 0%, rgb(36,103,187) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,66,133) 0%, rgb(36,103,187) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,66,133) 0%, rgb(36,103,187) 100%);
+}
+
+header .phones .order {
+  color: rgb(201, 21, 12);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: -moz-linear-gradient( 90deg, rgb(210,208,208) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(210,208,208) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(210,208,208) 0%, rgb(255,255,255) 100%);
+}
+
+.menu  ul a{
+  color: rgb(43, 43, 43);
+}
+.first_screen .title {
+  font-size: 60px;
+  font-family: "Roboto";
+  color: rgb(0, 55, 107);
+}
+
+.first_screen{
+	background:red;
+}
+.first_screen .percent_intro {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.first_screen .percent {
+  font-size: 80px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.first_screen .ofyear {
+  font-size: 19.444px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.calculator .title {
+  font-size: 34px;
+  font-family: "Roboto";
+  color: rgb(0, 55, 107);
+  font-weight: bold;
+}
+.calculator .slider_control .label {
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+}
+.calculator .slider_control .sl_result {
+  font-size: 15.786px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 2px;
+background-color: rgb(0, 55, 107);
+}
+.calculator label.checkbox {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+.calculator label.checkbox input[type="text"]{
+  font-size: 17px;
+  font-family: "Roboto";
+}
+.calculator .result_title {
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.calculator .result .rub {
+  font-size: 40px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.calculator .dohod .item_res{
+  font-size: 28px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.calculator .dohod .item_name {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(123, 122, 122);
+}
+.calculator .resultlink{
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(0, 55, 107);
+  text-decoration: underline;
+}
+.calculator button {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-image: -moz-linear-gradient( 90deg, rgb(169,0,9) 0%, rgb(228,0,11) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(169,0,9) 0%, rgb(228,0,11) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(169,0,9) 0%, rgb(228,0,11) 100%);
+
+
+}
+
+
+.подпись для слайдера {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(123, 122, 122);
+}
+
+
+
+
 
 
 
@@ -38,6 +207,7 @@
  */
 /* Layout helpers
 ----------------------------------*/
+
 .ui-helper-hidden {
 	display: none;
 }
