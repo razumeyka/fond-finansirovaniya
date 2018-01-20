@@ -258,7 +258,100 @@ h3 {
     background-position: -300px -490px;
 }
 
+.fond_finansirovaniya {
+    background-image: url(../img/pattern_diagonal.png);
+    background-position: center center;
+}
 
+.fond_finansirovaniya .wrapper {
+    display: flex;   
+}
+
+.fond_finansirovaniya .logo {
+    background-color: red;
+    width: 250px;
+    height: 115px;
+}
+
+.about_fond, .predsedatyel, .requisites {
+    background-color: #FFFFFF;
+    border: 1px solid #dee2e5;
+	box-shadow: 0 0 5px #e1e5e9;
+	margin: 25px;
+}
+
+.about_fond {
+    padding: 20px 30px 0 50px;
+    text-align: justify;
+}
+
+.about_fond h3 {
+    font-family: Roboto-Bold;
+    font-size: 22px;
+}
+
+.about_fond p {
+    font-family: Roboto-Light;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.predsedatyel img {
+    width: 200px;
+    padding: 20px 20px 0;
+    float: left;
+}
+
+.predsedatyel .quote {
+    font-family: Roboto-Light;
+    font-style: italic;
+    font-size: 16px;
+    padding: 50px 50px 20px 20px;
+}
+
+.predsedatyel .blue_line {
+    background-color: #00376b;
+    height: 90px;
+}
+
+.predsedatyel .blue_line .name {
+    color: #ffffff;
+    text-align: right;
+    padding: 20px 40px 5px;
+    font-family: Roboto-Light;
+    font-size: 18px;
+}
+
+.predsedatyel .blue_line .position {
+    color: #ffffff;
+    text-align: right;
+    padding-right: 40px;
+    font-family: Roboto-Light;
+    font-size: 14px;
+}
+
+.requisites {
+    text-align: left;
+    padding: 50px;
+}
+
+.requisites h3 {
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.requisites p {
+    font-family: Roboto-Light;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.requisites ul {
+    font-family: Roboto-Light;
+    font-size: 14px;
+    line-height: 30px;
+}
 
 @media (max-width: 700px) {
     .program_wrapper {
