@@ -216,11 +216,13 @@ h3 {
 .payments_ways {
     display: flex;
     flex-wrap: wrap;
-	margin:0 -5px;
+	margin: auto;
+	max-width: 950px;
+	justify-content: center;
 }
 
 .payments_ways .payment {
-    padding: 0px 5px 50px;
+    padding: 0px 30px 50px;
     box-sizing: border-box;
     width: 33.333%;
 }
@@ -270,15 +272,15 @@ h3 {
 }
 
 .first_column {
-    flex-basis: 57%;
+    flex: 1;
 }
 
 .second_column {
-    flex-basis: 43%;
+    flex-basis: 500px;
 }
 
 .fond_wrapper {
-    padding: 55px 20px 10px;
+    padding: 55px 20px 50px;
 }
 
 .about_fond, .predsedatyel, .requisites {
@@ -377,6 +379,58 @@ h3 {
     width: 30px;
     height: 30px;
     float: left;
+}
+
+.reestr {
+    background-image: url(../img/red_bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: 5px 0 0;
+}
+
+.reestr .text {
+    padding: 80px 0;
+}
+
+.reestr .box, .fond, .law {
+    color: #ffffff;
+    text-align: center;
+}
+
+.reestr .box {
+    margin: auto;
+    max-width: 550px;
+    padding: 10px;
+}
+
+.number {
+    display: inline-block;
+    font-family: Roboto-Bold;
+    font-size: 66px;
+    box-sizing: content-box;
+    float: left;
+}
+
+.vreestre {
+   display: inline-block;
+   font-family: Roboto-Regular;
+   font-size: 22px;
+   box-sizing: content-box;
+   padding: 10px 0;
+   letter-spacing: 0.2px;
+}
+
+.fond {
+    font-family: Roboto-Bold;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    padding: 5px 0 10px;
+}
+
+.law {
+    font-family: Roboto-Light;
+    font-size: 18px;
+    padding: 15px;
 }
 
 @media (max-width: 700px) {
