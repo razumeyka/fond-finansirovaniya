@@ -218,7 +218,6 @@ h3 {
     flex-wrap: wrap;
 	margin: auto;
 	max-width: 950px;
-	justify-content: center;
 }
 
 .payments_ways .payment {
@@ -240,6 +239,8 @@ h3 {
     color: #ffffff;
     font-family: Roboto-Light;
     font-size: 16px;
+    max-width: 183px;
+    margin: auto;
 }
 
 .payment .icon {
@@ -418,6 +419,7 @@ h3 {
    box-sizing: content-box;
    padding: 10px 0;
    letter-spacing: 0.2px;
+   max-width: 300px;
 }
 
 .fond {
@@ -431,6 +433,8 @@ h3 {
     font-family: Roboto-Light;
     font-size: 18px;
     padding: 15px;
+    max-width: 700px;
+    margin: auto;
 }
 
 @media (max-width: 700px) {
@@ -442,5 +446,23 @@ h3 {
 @media (max-width: 500px) {
     .safety-text1::before, .safety-text2::before ,.safety-text3::before {
           clear: right;
+    }
+}
+
+@media (max-width: 450px) {
+    .payments_ways .payment {
+     width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .payments_ways .payment {
+     flex: 1;
+    }
+}
+
+@media (max-width: 450px) {
+    .number {
+        float: none;
     }
 }
