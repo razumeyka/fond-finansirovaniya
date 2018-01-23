@@ -531,8 +531,6 @@ h3 {
   padding-left: 25px;
 }
 
-
-
 .phonenumber_and_shedule {
     background-color: #ffffff;
     box-sizing: border-box;
@@ -569,6 +567,20 @@ h3 {
     font-family: "Roboto-Bold";
     color: rgb(0, 55, 107);
     line-height: 1.875;
+}
+
+.question_answer {
+    background-image: url(../img/pattern_diagonal.png);
+    background-position: center center;
+}
+
+.question {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dee2e5;
+	box-shadow: 0 0 5px #e1e5e9;
 }
 
 @media (max-width: 700px) {
