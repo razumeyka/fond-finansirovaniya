@@ -297,6 +297,7 @@ h3 {
 .about_fond {
     padding: 20px 40px 0 45px;
     text-align: justify;
+	box-sizing:border-box;
 }
 
 .about_fond .logo {
@@ -321,15 +322,14 @@ h3 {
     letter-spacing: 0;
 }
 
-.predsedatyel {
-    max-height: 390px;
-}
 
+.predsedatel_img{
+	position:relative;
+}
 .predsedatyel img {
-    width: 200px;
-    height: 280px;
-    float: left;
-    padding: 20px 20px 0 15px;
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 .predsedatyel .quote {
@@ -337,7 +337,7 @@ h3 {
     font-style: italic;
     font-size: 16px;
     height: 280px;
-    padding: 20px 40px 0 0;
+    padding: 20px 40px 0 220px;
     line-height: 24px;
 }
 
