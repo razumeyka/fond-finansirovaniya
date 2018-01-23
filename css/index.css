@@ -272,7 +272,6 @@ h3 {
     margin: auto;
     max-width: 1240px;
     padding: 40px 0;
-    align-items: stretch;
 }
 
 .first_column {
@@ -323,7 +322,7 @@ h3 {
 }
 
 .predsedatyel {
-    max-height: 370px;
+    max-height: 390px;
 }
 
 .predsedatyel img {
@@ -413,7 +412,7 @@ h3 {
 }
 
 .reestr .text {
-    padding: 80px 0;
+    padding: 70px 0;
 }
 
 .reestr .box, .fond, .law {
