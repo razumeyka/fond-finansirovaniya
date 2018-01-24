@@ -63,12 +63,13 @@ main {
 
 h2 {
     text-align: center;
-    color: #00376b;
+    color: rgb(0, 55, 107);
     font-size: 34px;
     letter-spacing: 0.8px;
     margin: 5px auto 0;
     padding: 45px 0 30px;
     font-family: Roboto-BoldCondensed;
+    line-height: 1.2;
 }
 
 h3 {
@@ -446,6 +447,7 @@ h3 {
    padding: 10px 0;
    letter-spacing: 0.2px;
    max-width: 300px;
+   text-align: left;
 }
 
 .fond {
@@ -498,7 +500,7 @@ h3 {
     box-sizing: border-box;
 }
 
-.wpcf7-validates-as-required {
+.wpcf7-form-control-wrap input {
     font-size: 17.716px;
     font-family: "Roboto-Bold";
     color: rgb(0, 55, 107);
@@ -544,6 +546,9 @@ h3 {
     color: rgb(0, 55, 107);
     line-height: 1.2;
     text-decoration: none;
+    display: block;
+    position: relative;
+    text-align: center;
 }
 
 .zvonok .phonenumber::before {
@@ -551,7 +556,9 @@ h3 {
     background: url(../img/sprites.svg) #FFFFFF -20px -390px;
     width: 80px;
     height: 70px;
-    float: left;
+    position: absolute;
+    left: -80px;
+    text-align: center;
 }
 
 .zvonok .shedule {
@@ -574,13 +581,40 @@ h3 {
     background-position: center center;
 }
 
+.question_answer .wrapper {
+    max-width: 850px;
+    padding: 0;
+}
+
 .question {
     box-sizing: border-box;
     background-color: #ffffff;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 15px 0;
     border: 1px solid #dee2e5;
 	box-shadow: 0 0 5px #e1e5e9;
+	position: relative;
+	font-size: 18px;
+    font-family: "Roboto-Light";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
+.question::after {
+    content: "+";
+    font-size: 36px;
+    font-family: "Roboto-Regular";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align-last: center;
+    height: 51px;
+    width: 60px;
+    background-color: #00376b;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 10px;
 }
 
 @media (max-width: 700px) {
