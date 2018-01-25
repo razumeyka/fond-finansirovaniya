@@ -340,7 +340,7 @@ h3 {
     font-family: Roboto-Light;
     font-style: italic;
     font-size: 16px;
-    height: 280px;
+    min-height: 280px;
     padding: 20px 40px 0 220px;
     line-height: 24px;
 }
@@ -594,7 +594,7 @@ h3 {
     box-sizing: border-box;
     background-color: #ffffff;
     padding: 20px;
-    margin: 15px 0;
+    margin-top: 15px;
     border: 1px solid #dee2e5;
 	box-shadow: 0 0 5px #e1e5e9;
 	position: relative;
@@ -621,6 +621,19 @@ h3 {
     padding-top: 10px;
 }
 
+.answer {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 20px;
+    border: none 1px solid #dee2e5 1px solid #dee2e5;
+	box-shadow: 0 0 5px #e1e5e9;
+	position: relative;
+	font-size: 18px;
+    font-family: "Roboto-Light";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+
 @media (max-width: 700px) {
     .program_wrapper {
           width: 100%;
@@ -639,17 +652,25 @@ h3 {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1260px) {
     .second_column {
      flex: 1;
      width: 100%;
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1260px) {
     .predsedatyel {
      flex: none;
      width: 100%;
+    }
+}
+
+@media (max-width: 1260px) {
+     .predsedatyel_img {
+     position: relative;
+     max-width: 550px;
+     margin: 0 auto;
     }
 }
 
