@@ -165,6 +165,10 @@ h3 {
     overflow: hidden;
 }
 
+.description p {
+    margin: 0 0 25px;
+}
+
 .safety-text1::before {
     content: "1";
 }
@@ -210,7 +214,7 @@ h3 {
     font-size: 34px;
     letter-spacing: 0.8px;
     margin: 5px auto 0;
-    padding: 50px 0 30px;
+    padding: 55px 0 30px;
     font-family: Roboto-BoldCondensed;
 }
 
@@ -312,7 +316,7 @@ h3 {
     font-family: Roboto-Bold;
     font-size: 22px;
     color: #000000;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .about_fond p {
@@ -322,7 +326,6 @@ h3 {
     margin: 5px 0 20px;
     letter-spacing: 0;
 }
-
 
 .predsedatel_img{
 	position:relative;
@@ -417,7 +420,7 @@ h3 {
 }
 
 .reestr .text {
-    padding: 70px 0;
+    padding: 70px 0 75px;
 }
 
 .reestr .box, .fond, .law {
@@ -475,7 +478,7 @@ h3 {
     background-position: cover;
     box-sizing: border-box;
     color: #ffffff;
-    width: 43%;
+    width: 44%;
 }
 
 .order_wrapper {
@@ -492,12 +495,12 @@ h3 {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0;
-  padding-bottom: 10px;
 }
 
 .wpcf7-form-control-wrap {
     display: block;
     box-sizing: border-box;
+    margin: 13px 0 5px;
 }
 
 .wpcf7-form-control-wrap input {
@@ -518,10 +521,6 @@ h3 {
     margin: 5px 0 0 0;
 }
 
-.agreement label {
-    padding-left: 5px;
-}
-
 .agreement, .order_form a {
   font-size: 10px;
   font-family: "Roboto";
@@ -535,9 +534,12 @@ h3 {
 
 .phonenumber_and_shedule {
     background-color: #ffffff;
+    width: 56%;
+}
+
+.phone_wrapper {
     box-sizing: border-box;
-    padding: 90px 70px 70px 110px;
-    width: 57%;
+    padding: 90px 70px;
 }
 
 .zvonok .phonenumber {
@@ -548,7 +550,7 @@ h3 {
     text-decoration: none;
     display: block;
     position: relative;
-    text-align: center;
+    margin-left: 120px;
 }
 
 .zvonok .phonenumber::before {
@@ -558,7 +560,6 @@ h3 {
     height: 70px;
     position: absolute;
     left: -80px;
-    text-align: center;
 }
 
 .zvonok .shedule {
@@ -566,7 +567,7 @@ h3 {
     font-family: "Roboto-Regular";
     color: rgb(0, 55, 107);
     line-height: 1.875;
-    padding: 20px 0 0 80px;
+    padding: 20px 0 0 125px;
 }
 
 .zvonok .shedule span {
@@ -582,8 +583,11 @@ h3 {
 }
 
 .question_answer .wrapper {
-    max-width: 850px;
-    padding: 0;
+    max-width: 830px;
+}
+
+.question_answer h2 {
+    padding: 45px 0 20px;
 }
 
 .question {
@@ -654,3 +658,53 @@ h3 {
         float: none;
     }
 }
+
+@media (max-width: 850px) {
+    .order_form {
+          width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .order_wrapper {
+        padding: 50px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .phonenumber_and_shedule {
+          width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .zvonok .phonenumber {
+          margin-left: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    .phone_wrapper {
+        padding: 30px 30px 30px 70px;
+    }
+}
+
+@media (max-width: 850px) {
+    .zvonok .shedule {
+         padding: 50px 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .zvonok .phonenumber  {
+    font-size: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .zvonok .shedule  {
+    padding: 20px 0 0;
+    }
+}
+
