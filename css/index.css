@@ -475,7 +475,6 @@ h3 {
 
 .order_form {
     background-color: #00376b;
-    background-position: cover;
     box-sizing: border-box;
     color: #ffffff;
     width: 44%;
@@ -584,6 +583,7 @@ h3 {
 
 .question_answer .wrapper {
     max-width: 830px;
+    padding: 0 40px 60px;
 }
 
 .question_answer h2 {
@@ -632,6 +632,99 @@ h3 {
     font-family: "Roboto-Light";
     color: rgb(0, 0, 0);
     line-height: 1.2;
+}
+
+.first_footer {
+    background-color: #00376b;
+    font-size: 13px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.846;
+    text-align: left;
+    width: 100%;
+}
+
+.first_footer .wrapper, .second_footer .wrapper  {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px 100px 40px;
+}
+
+.first_footer .logo {
+    background-color: red;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.first_footer .tel {
+  font-size: 30px;
+  font-family: "Roboto";
+  line-height: 0.8;
+  margin: 10px 0 15px;
+}
+
+.first_footer .time {
+  font-size: 13px;
+  font-family: "Roboto-Light";
+  line-height: 1.846;
+}
+
+.first_footer .address {
+  font-size: 18px;
+  font-family: "Roboto-Regular";
+  line-height: 1;
+  margin-top: 15px;
+}
+
+.first_footer .documents {
+    text-align: right;
+    font-size: 28px;
+    font-family: "Roboto-BoldCondensed";
+    line-height: 0.857;
+    padding-top: 40px;
+    letter-spacing: 2.5;
+}
+
+.first_footer ul {
+    margin: 10px 0;
+}
+
+.first_footer li {
+    list-style: none;
+}
+
+.first_footer li a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: "Roboto-Light";
+    line-height: 2.143;
+}
+
+.second_footer {
+    background-color: #00264c;
+    font-size: 12px;
+    font-family: "Roboto-Light";
+    color: rgb(155, 187, 221);
+    line-height: 1.5;
+    padding: 20px 120px 20px 80px;
+    padding: 0;
+    width: 100%;
+}
+
+.second_footer .info {
+    max-width: 750px;
+}
+
+.second_footer .welamas {
+    font-size: 14px;
+    line-height: 1.702;
+    text-align: right;
+}
+
+.second_footer a {
+    color: rgb(155, 187, 221);
 }
 
 @media (max-width: 700px) {
