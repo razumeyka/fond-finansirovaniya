@@ -51,7 +51,7 @@ main {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .saving-programs {
@@ -275,9 +275,7 @@ h3 {
 .fond_finansirovaniya .wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     max-width: 1240px;
-    padding: 40px 0;
 }
 
 .first_column {
@@ -308,7 +306,7 @@ h3 {
 
 .about_fond .logo {
     background-color: red;
-    width: 250px;
+    width: 150;
     height: 115px;
     margin-bottom: 10px;
 }
@@ -494,7 +492,7 @@ h3 {
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;
-  letter-spacing: -1px;
+  letter-spacing: 0;
 }
 
 .wpcf7-form-control-wrap {
@@ -548,7 +546,7 @@ h3 {
 
 .phone_wrapper {
     box-sizing: border-box;
-    padding: 90px 70px 84px;
+    padding: 90px 70px 84px 10px;
 }
 
 .zvonok .phonenumber {
@@ -559,13 +557,13 @@ h3 {
     text-decoration: none;
     display: block;
     position: relative;
-    margin-left: 120px;
-    letter-spacing: -4px;
+    margin-left: 180px;
+    letter-spacing: 0;
 }
 
 .zvonok .phonenumber::before {
     content: "";
-    background: url(../img/sprites.svg) #FFFFFF -20px -390px;
+    background: url(../img/sprites.svg) #FFFFFF -10px -390px;
     width: 80px;
     height: 70px;
     position: absolute;
@@ -577,7 +575,7 @@ h3 {
     font-family: "Roboto-Regular";
     color: rgb(0, 55, 107);
     line-height: 1.875;
-    padding: 15px 0 0 125px;
+    padding: 15px 0 0 185px;
 }
 
 .zvonok .shedule span {
@@ -621,15 +619,13 @@ h3 {
     font-family: "Roboto-Regular";
     color: rgb(255, 255, 255);
     line-height: 1.2;
-    text-align-last: center;
-    height: 51px;
+    text-align: center;
     width: 60px;
     background-color: #00376b;
     position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
-    padding-top: 10px;
 }
 
 .answer {
@@ -659,6 +655,7 @@ h3 {
 
 .first_footer .wrapper, .second_footer .wrapper  {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
 }
@@ -748,7 +745,7 @@ h3 {
 
 @media (max-width: 320px) {
     .wrapper {
-          padding: 0 15px;
+         padding: 0 15px;
     }
 }
 
@@ -798,40 +795,40 @@ h3 {
     }
 }
 
-@media (max-width: 1066px) {
+@media (max-width: 1072px) {
     .order_form {
           width: 100%;
     }
 }
 
-@media (max-width: 1066px) {
+@media (max-width: 1072px) {
     .order_wrapper {
         padding: 15px;
         margin: auto;
     }
 }
 
-@media (max-width: 1066px) {
+@media (max-width: 1072px) {
     .phonenumber_and_shedule {
           width: 100%;
     }
 }
 
-@media (max-width: 850px) {
-    .zvonok .phonenumber {
-          margin-left: 30px;
-    }
-}
-
-@media (max-width: 850px) {
+@media (max-width: 500px) {
     .phone_wrapper {
-        padding: 30px 30px 30px 70px;
+        padding: 20px;
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 500px) {
+    .zvonok .phonenumber {
+          margin-left: 80px;
+    }
+}
+
+@media (max-width: 500px) {
     .zvonok .shedule {
-         padding: 50px 30px;
+         padding: 50px 30px 0 0;
     }
 }
 
@@ -841,15 +838,43 @@ h3 {
     }
 }
 
-@media (max-width: 500px) {
-    .zvonok .shedule  {
-    padding: 20px 0 0;
+@media (max-width: 320px) {
+    .zvonok .phonenumber  {
+    font-size: 25px;
     }
 }
 
-@media (max-width: 420px) {
-    .zvonok .phonenumber  {
-    font-size: 20px;
+@media (max-width: 950px) {
+    .second_footer .info  {
+    max-width: 400px;
     }
 }
+
+@media (max-width: 700px) {
+    .first_footer .wrapper, .second_footer .wrapper  {
+    justify-content: flex-start;
+    }
+}
+
+@media (max-width: 700px) {
+    .first_footer .documents {
+    text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+    .first_footer .documents ul {
+    padding: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .second_footer .weblamas {
+    background-color: #00376b;
+    margin: 30px auto 0;
+    padding: 10px 30px;
+    }
+}
+
+
 
