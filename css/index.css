@@ -503,7 +503,7 @@ h3 {
 }
 
 .wpcf7-form-control-wrap input {
-    font-size: 17.716px;
+    font-size: 17px;
     font-family: "Roboto-Bold";
     color: rgb(0, 55, 107);
     line-height: 2.54;
@@ -543,7 +543,7 @@ h3 {
 
 .zvonok .phonenumber {
     font-family: "Roboto-Black";
-    font-size: 50.769px;
+    font-size: 50px;
     color: rgb(0, 55, 107);
     line-height: 1.2;
     text-decoration: none;
@@ -593,7 +593,7 @@ h3 {
 .question {
     box-sizing: border-box;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 20px 60px 20px 20px;
     margin-top: 15px;
     border: 1px solid #dee2e5;
 	box-shadow: 0 0 5px #e1e5e9;
@@ -642,13 +642,13 @@ h3 {
     line-height: 1.846;
     text-align: left;
     width: 100%;
+    padding: 20px 100px 40px;
 }
 
 .first_footer .wrapper, .second_footer .wrapper  {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    padding: 20px 100px 40px;
 }
 
 .first_footer .logo {
@@ -711,6 +711,7 @@ h3 {
     padding: 20px 120px 20px 80px;
     padding: 0;
     width: 100%;
+    padding: 20px 100px 40px;
 }
 
 .second_footer .info {
