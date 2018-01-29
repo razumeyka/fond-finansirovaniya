@@ -629,7 +629,8 @@ h3 {
 	bottom:0;
 }
 
-.question .plus p {
+.question .plus:before {
+	content:"+";
     height: 46px;/*нецелое число, потому что плохой шрифт*/
     margin: auto;
     top: 0;
