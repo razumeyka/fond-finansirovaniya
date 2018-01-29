@@ -610,12 +610,12 @@ h3 {
     font-family: "Roboto-Light";
     color: rgb(0, 0, 0);
     line-height: 1.2;
-    display: flex;
-    justify-content: space-between;
     min-height: 60px;
+	position:relative;
 }
 
 .question .plus {
+	position:absolute;
     font-size: 36px;
     font-family: "Roboto-Regular";
     color: rgb(255, 255, 255);
@@ -624,15 +624,24 @@ h3 {
     width: 60px;
     background-color: #00376b;
     height: 100%;
+	top:0;
+	right:0;
+	bottom:0;
 }
 
 .question .plus p {
-    height: 20px;
+    height: 46px;/*нецелое число, потому что плохой шрифт*/
     margin: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .question .text {
-    padding: 20px;
+    padding: 20px 80px 20px 20px;
+	
 }
 
 .answer {
