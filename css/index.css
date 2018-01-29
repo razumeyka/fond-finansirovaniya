@@ -198,7 +198,6 @@ h3 {
 .safety img {
     float: right;
     width: 140px;
-    float: right;
     margin: 0 20px;
 }
 
@@ -504,6 +503,8 @@ h3 {
 .wpcf7-form-control-wrap input {
     font-size: 17px;
     font-family: "Roboto-Bold";
+    -webkit-appearance: none;
+    border-radius: 0;
     color: rgb(0, 55, 107);
     line-height: 2.54;
     text-align: center;
@@ -602,19 +603,19 @@ h3 {
 .question {
     box-sizing: border-box;
     background-color: #ffffff;
-    padding: 20px 60px 20px 20px;
     margin-top: 15px;
     border: 1px solid #dee2e5;
 	box-shadow: 0 0 5px #e1e5e9;
-	position: relative;
 	font-size: 18px;
     font-family: "Roboto-Light";
     color: rgb(0, 0, 0);
     line-height: 1.2;
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
 }
 
-.question::after {
-    content: "+";
+.question .plus {
     font-size: 36px;
     font-family: "Roboto-Regular";
     color: rgb(255, 255, 255);
@@ -622,10 +623,16 @@ h3 {
     text-align: center;
     width: 60px;
     background-color: #00376b;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
+    height: 100%;
+}
+
+.question .plus p {
+    height: 20px;
+    margin: auto;
+}
+
+.question .text {
+    padding: 20px;
 }
 
 .answer {
@@ -743,55 +750,26 @@ h3 {
     color: rgb(155, 187, 221);
 }
 
-@media (max-width: 320px) {
-    .wrapper {
-         padding: 0 15px;
-    }
-}
-
-@media (max-width: 700px) {
-    .program_wrapper {
-          width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .safety-text1::before, .safety-text2::before ,.safety-text3::before {
-          clear: right;
-    }
-}
-
-@media (max-width: 450px) {
-    .payments_ways .payment {
+@media (max-width: 1260px) {
+     .second_column {
+     flex: auto;
      width: 100%;
     }
-}
-
-@media (max-width: 1260px) {
+    
     .second_column {
-     flex: 1;
+     flex: auto;
      width: 100%;
     }
-}
-
-@media (max-width: 1260px) {
+    
     .predsedatyel {
      flex: none;
      width: 100%;
     }
-}
-
-@media (max-width: 1260px) {
-     .predsedatyel_img {
+    
+    .predsedatyel_img {
      position: relative;
      max-width: 550px;
      margin: 0 auto;
-    }
-}
-
-@media (max-width: 450px) {
-    .number {
-        float: none;
     }
 }
 
@@ -799,48 +777,14 @@ h3 {
     .order_form {
           width: 100%;
     }
-}
-
-@media (max-width: 1072px) {
-    .order_wrapper {
+    
+     .order_wrapper {
         padding: 15px;
         margin: auto;
     }
-}
-
-@media (max-width: 1072px) {
+    
     .phonenumber_and_shedule {
           width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .phone_wrapper {
-        padding: 20px;
-    }
-}
-
-@media (max-width: 500px) {
-    .zvonok .phonenumber {
-          margin-left: 80px;
-    }
-}
-
-@media (max-width: 500px) {
-    .zvonok .shedule {
-         padding: 50px 30px 0 0;
-    }
-}
-
-@media (max-width: 500px) {
-    .zvonok .phonenumber  {
-    font-size: 30px;
-    }
-}
-
-@media (max-width: 320px) {
-    .zvonok .phonenumber  {
-    font-size: 25px;
     }
 }
 
@@ -854,27 +798,72 @@ h3 {
     .first_footer .wrapper, .second_footer .wrapper  {
     justify-content: flex-start;
     }
-}
-
-@media (max-width: 700px) {
+    
     .first_footer .documents {
     text-align: left;
     }
-}
-
-@media (max-width: 700px) {
-    .first_footer .documents ul {
+    
+     .first_footer .documents ul {
     padding: 0;
     }
-}
-
-@media (max-width: 700px) {
+    
     .second_footer .weblamas {
     background-color: #00376b;
     margin: 30px auto 0;
     padding: 10px 30px;
     }
+    
+     .program_wrapper {
+          width: 100%;
+    }
 }
+
+@media (max-width: 500px) {
+    .safety-text1::before, .safety-text2::before ,.safety-text3::before {
+          clear: right;
+    }
+    
+    .payments_ways .payment {
+     width: 100%;
+    }
+    
+    .number {
+        float: none;
+    }
+    
+    .phone_wrapper {
+        padding: 20px;
+    }
+    
+    .zvonok .phonenumber {
+          margin-left: 80px;
+    }
+    
+    .zvonok .shedule {
+         padding: 30px 30px 0 0;
+    }
+    
+    .zvonok .phonenumber  {
+    font-size: 30px;
+    line-height: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    .wrapper {
+    padding: 0 15px;
+        }
+        
+    .fond_wrapper {
+        padding: 20px 0;
+    }
+    
+    .zvonok .phonenumber  {
+    font-size: 20px;
+    }
+}
+}
+
 
 
 
